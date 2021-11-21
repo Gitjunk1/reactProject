@@ -9,8 +9,10 @@ function News(props) {
     <article className={s.news}>
         <img className={s.thumbnailImg} src={props.thumbnail} alt="" />
         <ArticleHeader title={props.title}/>
+        <div className={s.wrapper}>
         <Label label={props.label}/>
         <Time/>
+        </div>
     </article>
     );
   }
