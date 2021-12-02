@@ -74,7 +74,6 @@ function App() {
                 <section className="channels">
                     <div className="control">
                         <h2 className="block-title">Explore Channels</h2>
-                        {/*<ChannelBtn iconImg={seeAll}/>*/}
                         {/*<button className="btn">See all</button>*/}
                     </div>
                     <div className="channels-block">
