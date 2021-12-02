@@ -9,9 +9,35 @@
     "s c";
 }
 
-.header {
+.headers {
     grid-area: h;
+    padding: 31px 32px 28px;
 }
+
+.headers-block {
+    display: flex;
+    max-width: 1072px;
+    height: 48px;
+}
+
+.headers-input {
+    width: 385px;
+    background: url("./assets/img/headingPic/searchIcon.png") no-repeat;
+    box-sizing: border-box;
+    background-color: #f7f7f7;
+    border: none;
+    background-position: 16px;
+    padding-left: 48px;
+    margin-right: 16px;
+}
+
+.headers-btn {
+    background: url("./assets/img/headingPic/Buttons.png") no-repeat;
+    width: 48px;
+    height: 48px;
+    border: none;
+}
+
 
 .sidebars {
     grid-area: s;
@@ -47,15 +73,16 @@
     align-items: center;
 }
 
-.headers-block {
-    display: flex;
-}
+
 
 .news-block {
     display:grid;
     grid-template-columns: repeat(3, 336px);
     align-items: center;
     gap: 32px;
+}
+img {
+    border-radius: 12px;
 }
 
 
